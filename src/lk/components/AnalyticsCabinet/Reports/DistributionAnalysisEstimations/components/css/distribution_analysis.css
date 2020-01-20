@@ -1,0 +1,595 @@
+.lognormal-distribution__window {
+	min-height: 360px;
+}
+
+.lognormal-distribution__block {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #e7e7e7;
+	border-radius: 7px;
+	background-color: #fff;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.lognormal-distribution__report-title {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.lognormal-distribution__report-subtitle {
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.lognormal-distribution__table-indicators {
+	border: none;
+	border-collapse: separate;
+	border-spacing: 1px 5px;
+	font-size: 12px;
+}
+
+table.lognormal-distribution__table-indicators td:first-child {
+	width: 210px;
+}
+
+table.lognormal-distribution__table-indicators td:nth-child(3n) {
+	min-width: 60px;
+}
+
+span.lognormal-distribution__recommended-value {
+	color: rgb(0, 176, 120);
+	margin-left: 3px;
+	font-size: smaller;
+}
+
+ul.lognormal-distribution__container-list-height {
+	max-height: 50px;
+}
+
+ul.lognormal-distribution__container-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 0;
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+ul.lognormal-distribution__list li {
+	height: 25px;
+	border: 1px solid rgba(0, 126, 255, 0.24);
+	min-width: 180px;
+	border-radius: 14px;
+	text-align: center;
+	vertical-align: middle;
+	background-clip: border-box;
+	list-style: none;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding-top: 4px;
+}
+
+li.lognormal-distribution__list-item-selected {
+	background-color: rgba(0, 126, 255, 0.08);
+}
+
+.lognormal-distribution__table-selected-td {
+	color: rgb(0, 176, 120);
+}
+
+.lognormal-distribution__left {
+	float: left;
+}
+
+.lognormal-distribution__right {
+	float: right;
+}
+
+.lognormal-distribution__span-min {
+	display: inline-block;
+	text-align: center;
+	margin-left: 27px;
+	font-size: 18px;
+}
+
+.lognormal-distribution__span-min, .lognormal-distribution__span-max, .lognormal-distribution__span input {
+	width: 80px;
+	line-height: 0.9;
+}
+
+.lognormal-distribution__span-max {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	float: right;
+	margin-right: 33px;
+}
+
+.lognormal-distribution__span {
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.lognormal-distribution__span input {
+	margin-bottom: 5px;
+}
+
+.lognormal-distribution__hidden-block {
+	visibility: hidden;
+}
+
+.grid-cols-24__lognormal-distribution__table-container {
+	font-size: small;
+}
+.lognormal-distribution__table {
+	width: 380px;
+	border: 1px solid #fff;
+	border-collapse: separate;
+	border-spacing: 1px;
+	font-size: 12px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.lognormal-distribution__table th {
+	background-color: #72a0d0;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 500;
+	padding: 2px 3px;
+	max-width: 80px;
+	vertical-align: middle;
+}
+.lognormal-distribution__table tr {
+	background-color: #f0f0f0;
+}
+.lognormal-distribution__table td {
+	padding: 2px 3px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	background-color: #ccdbec;
+	min-width: 30px;
+	white-space: nowrap;
+}
+
+.lognormal-distribution__table td:first-child {
+	max-width: 10px;
+}
+
+.lognormal-distribution__table td:nth-child(2) {
+	width: 170px;
+}
+
+table.lognormal-distribution__table tr:nth-child(2n) td {
+	background-color: #e6eef5;
+}
+
+.lognormal-distribution__buttons-wrapper {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.lognormal-distribution__button {
+	min-width: 150px;
+	max-width: 210px;
+	width: 100%;
+	height: 30px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px -2px 0px 0px inset;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: inherit;
+	font-size: 12px;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
+	line-height: 1.9em;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
+	background: linear-gradient(rgb(253, 227, 146) 0%, rgb(254, 206, 80) 100%) repeat-x;
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 0.25em;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin: 10px 20px 10px 0;
+}
+
+.lognormal-distribution__close-report {
+	float: right;
+	width: 10px;
+	height: 10px;
+	background-position: 50% 50%;
+	background-size: 10px 10px;
+	margin-right: -3px;
+	margin-top: -3px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20width%3D%2210.99521541595459%22%20height%3D%2210.425837516784668%22%20style%3D%22%22%3E%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22none%22%20stroke%3D%22none%22%20style%3D%22%22%20class%3D%22%22/%3E%0A%20%3C%21--%20Created%20with%20Method%20Draw%20-%20http%3A//github.com/duopixel/Method-Draw/%20--%3E%0A%20%3Cg%20style%3D%22%22%3E%0A%20%20%3Ctitle%3Ebackground%3C/title%3E%0A%20%20%3Crect%20fill%3D%22none%22%20id%3D%22canvas_background%22%20height%3D%2221%22%20width%3D%2223%22%20y%3D%22-1%22%20x%3D%22-1%22/%3E%0A%20%20%3Cg%20display%3D%22none%22%20overflow%3D%22visible%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22canvasGrid%22%3E%0A%20%20%20%3Crect%20fill%3D%22url%28%23gridpattern%29%22%20stroke-width%3D%220%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22svg_2%22/%3E%0A%20%20%3C/g%3E%0A%20%3C/g%3E%0A%20%3Cg%20style%3D%22%22%20class%3D%22currentLayer%22%3E%0A%20%20%3Ctitle%3ELayer%201%3C/title%3E%0A%20%20%0A%20%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7061010362202458%2C0.7361752231222298%20L10.25837280040887%2C9.746411085941524%20%22%20id%3D%22svg_4%22%20class%3D%22%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M22.435406419025476%2C20.344497463318135%20L32.17224870200684%2C29.74641151052127%20%22%20class%3D%22%22%20id%3D%22svg_8%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M20.593301149593408%2C20.511961585494305%20L30.330143432574772%2C29.91387563269744%20%22%20class%3D%22%22%20id%3D%22svg_7%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7123433214743935%2C9.667867347052209%20L10.20385556189138%2C0.7949030953365497%20%22%20id%3D%22svg_9%22%20class%3D%22%22/%3E%3C/g%3E%0A%3C/svg%3E');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.histogram__list-radio-title {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+ul.graphical-analysis__list-radio li input {
+	margin-right: 5px;
+	font-size: 12px;
+	vertical-align: top;
+}
+
+.histogram__list {
+	display: inline-block;
+}
+
+ul.histogram__list li {
+	height: 25px;
+	border: 1px solid rgba(0, 126, 255, 0.24);
+	width: 200px;
+	border-radius: 14px;
+	text-align: center;
+	vertical-align: middle;
+	background-clip: border-box;
+	list-style: none;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding: 3px 7px 0;
+	font-size: small;
+}
+
+li.histogram__list-item-selected {
+	background-color: rgba(0, 126, 255, 0.08);
+}
+
+.histogram__list-radio-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+ul.histogram__list-radio li {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+ul.histogram__list-radio li:last-child {
+	margin-bottom: 0;
+}
+
+ul.histogram__list-radio li input {
+	margin-right: 5px;
+	font-size: 12px;
+	vertical-align: top;
+}
+
+.histogram__select-range {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.histogram__select-range input {
+	max-width: 50px;
+	text-align: center;
+	height: 25px;
+}
+
+.histogram__input-medium {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.histogram__input-medium input {
+	max-width: 100px;
+	text-align: center;
+	height: 25px;
+}
+
+.histogram__list-items-disabled ul li {
+	margin-bottom: 5px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	letter-spacing: -0.02em;
+}
+
+.histogram__table-container-function {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.histogram__table-container {
+	display: inline-block;
+	vertical-align: top;
+	overflow: scroll;
+	overflow-x: hidden;
+	font-size: small;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.histogram__toolbar {
+	display: inline-block;
+	min-width: 200px;
+	max-width: 370px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+
+.histogram__buttons-wrapper {
+	text-align: center;
+}
+
+.histogram__button {
+	min-width: 150px;
+	max-width: 180px;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px -2px 0px 0px inset;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: inherit;
+	font-size: 12px;
+	height: 30px;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
+	line-height: 1.9em;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
+	background: linear-gradient(rgb(253, 227, 146) 0%, rgb(254, 206, 80) 100%);
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 0.25em;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.histogram__button:hover {
+	background: linear-gradient(rgb(254, 206, 80) 0%, rgb(255, 198, 51) 100%);
+}
+
+/*Новый класс для смены количества интервалов по кнопке*/
+ul.histogram__list-buttons-change-intervals li {
+	width: 200px;
+	height: 25px;
+	border: 1px solid rgba(0, 126, 255, 0.24);
+	max-width: 210px;
+	border-radius: 14px;
+	text-align: center;
+	background-clip: border-box;
+	list-style: none;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding-top: 4px;
+}
+.ReactTable .rt-thead .rt-resizable-header-content {
+  text-align: left;
+}
+
+.lognormal-distribution__text-center {
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.lognormal-distribution__span-number-objects {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.lognormal-distribution__buttons-wrapper {
+	text-align: center;
+}
+
+.lognormal-distribution__button-distribution-density {
+	min-width: 150px;
+	max-width: 180px;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px -2px 0px 0px inset;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: inherit;
+	font-size: 12px;
+	height: 30px;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
+	line-height: 1.9em;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
+	background: linear-gradient(rgb(253, 227, 146) 0%, rgb(254, 206, 80) 100%);
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 0.25em;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.lognormal-distribution__button-distribution-density:hover {
+	background: linear-gradient(rgb(254, 206, 80) 0%, rgb(255, 198, 51) 100%);
+}
+
+.lognormal-distribution__graph-distribution-density-list {
+	display: inline-block;
+}
+
+ul.lognormal-distribution__graph-distribution-density-list li {
+	height: 25px;
+	border: 1px solid rgba(0, 126, 255, 0.24);
+	width: 200px;
+	border-radius: 14px;
+	text-align: center;
+	vertical-align: middle;
+	background-clip: border-box;
+	list-style: none;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding: 3px 7px 0;
+	font-size: small;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+li.lognormal-distribution__graph-distribution-density-list-item-selected {
+	background-color: rgba(0, 126, 255, 0.08);
+}
+
+.histogram__reference_information {
+	margin-bottom: 5px;
+}
+
+.graph-distribution-density__sigma {
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.graph-distribution-density__sigma-margin-left {
+	margin-left: 5px;
+}
+
+.graph-distribution-density__block-sigma-margin-left {
+	margin-left: 4rem;
+}
+
+.qqplot__text-p {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+
+.qqplot__text-p p:first-child {
+	margin-top: 0;
+}
+
+.recharts-default-legend {
+	line-height: 1.5;
+}
+
+.recharts-legend-item {
+	margin-left: 50px;
+}
+
+.icon-interval-distribution-purple span {
+	width: 16px;
+	height: 16px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Ase%3D%22http%3A//svg-edit.googlecode.com%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20width%3D%2216.85714285714286%22%20height%3D%2216.346938775510196%22%20style%3D%22%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctitle%3Emy%20vector%20image%3C/title%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Created%20with%20Vector%20Paint%20-%20http%3A//www.vectorpaint.yaks.com/%20https%3A//chrome.google.com/webstore/detail/hnbpdiengicdefcjecjbnjnoifekhgdo%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23FFFFFF%22%20stroke%3D%22none%22%20class%3D%22%22%20style%3D%22%22/%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20class%3D%22currentLayer%22%20style%3D%22%22%3E%3Ctitle%3ELayer%201%3C/title%3E%3Crect%20fill%3D%22%23d791d3%22%20stroke%3D%22%23d791d3%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22round%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20id%3D%22svg_1%22%20x%3D%220.6657904743429855%22%20y%3D%220.6734697593069541%22%20width%3D%2215.56730680512779%22%20height%3D%2214.890582343440906%22%20style%3D%22color%3A%20rgb%280%2C%200%2C%200%29%3B%22%20class%3D%22%22%20stroke-opacity%3D%221%22%20fill-opacity%3D%221%22/%3E%3C/g%3E%3C/svg%3E');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+}
+.icon-interval-distribution-orange span {
+	width: 16px;
+	height: 16px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Ase%3D%22http%3A//svg-edit.googlecode.com%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20width%3D%2216.85714285714286%22%20height%3D%2216.346938775510196%22%20style%3D%22%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctitle%3Emy%20vector%20image%3C/title%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Created%20with%20Vector%20Paint%20-%20http%3A//www.vectorpaint.yaks.com/%20https%3A//chrome.google.com/webstore/detail/hnbpdiengicdefcjecjbnjnoifekhgdo%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23FFFFFF%22%20stroke%3D%22none%22%20class%3D%22%22%20style%3D%22%22/%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20class%3D%22currentLayer%22%20style%3D%22%22%3E%3Ctitle%3ELayer%201%3C/title%3E%3Crect%20fill%3D%22%23f78a67%22%20stroke%3D%22%23f78a67%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22round%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20id%3D%22svg_1%22%20x%3D%220.6657904743429855%22%20y%3D%220.6734697593069541%22%20width%3D%2215.56730680512779%22%20height%3D%2214.890582343440906%22%20style%3D%22color%3A%20rgb%280%2C%200%2C%200%29%3B%22%20class%3D%22selected%22%20stroke-opacity%3D%221%22%20fill-opacity%3D%221%22/%3E%3C/g%3E%3C/svg%3E');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.histogram__buttons-section {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.lognormal-distribution__graph-distribution-density-table-wrapper {
+	margin: 0 60px;
+}
+
+.lognormal-distribution__graph-distribution-density-table {
+	border: 1px solid #fff;
+	border-collapse: separate;
+	border-spacing: 1px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.lognormal-distribution__graph-distribution-density-table th {
+	background-color: #72a0d0;
+	border: 1px solid #fff;
+	color: #fff;
+	/*font-weight: 500;*/
+	padding: 2px 3px;
+	max-width: 80px;
+}
+
+.lognormal-distribution__graph-distribution-density-table tr {
+	background-color: #f0f0f0;
+}
+
+.lognormal-distribution__graph-distribution-density-table td {
+	padding: 2px 3px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	background-color: #ccdbec;
+	min-width: 60px;
+	white-space: nowrap;
+}
+
+.lognormal-distribution__graph-distribution-density-table td:nth-child(2) {
+	text-align: left;
+}
+
+table.lognormal-distribution__graph-distribution-density-table tr:nth-child(2n) td {
+	background-color: #e6eef5;
+}
+
+.lognormal-distribution__graph-distribution-density-table-right {
+	float: right;
+}
+
+#lognormal-distribution__graph-distribution-density__cell-valid {
+	background-color: rgb(0, 176, 120);
+	color: #fff;
+}
+
+#lognormal-distribution__graph-distribution-density__cell-invalid {
+	background-color: red;
+	color: #fff;
+}
+
+.graphycal-analysis__graph-container {
+	min-height: 662px;
+}
+
+.lognormal-distribution__table-title {
+	margin: 0 auto;
+}
+
+td.lognormal-distribution__graph-distribution-density-table-title {
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}

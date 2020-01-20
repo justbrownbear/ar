@@ -1,0 +1,77 @@
+.switch-label {
+	display: block;
+	background: #f3f3f3;
+	height: 20px;
+	width: 40px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0 0 0 2px #dddddd;
+	font: inherit;
+	font-size: small;
+	font-weight: 400;
+	float: right;
+	margin-top: 15px;
+	margin-right: 200px;
+}
+.switch-label .on {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	opacity: 1;
+	min-width: 130px;
+	line-height: 20px;
+	opacity: 0;
+	color: #1f82b7;
+}
+.switch-label .off {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	right: 60px;
+	text-align: right;
+	opacity: 1;
+	min-width: 130px;
+	line-height: 20px;
+	opacity: 1;
+	color: #484848;
+}
+.switch-label:before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+	height: 20px;
+	width: 20px;
+	background: white;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), 0 0 0 2px #dddddd;
+	transition: .25s ease-in-out;
+}
+
+.switch {
+	position: absolute;
+	left: -5000px;
+}
+.switch + .switch-label .on {
+	color: #1f82b7;
+}
+.switch:checked + .switch-label {
+	background: #1f82b7;
+	box-shadow: 0 0 0 2px #1f82b7;
+}
+.switch:checked + .switch-label .on {
+	left: 60px;
+	opacity: 1;
+}
+.switch:checked + .switch-label .off {
+	right: 0px;
+	opacity: 0;
+}
+.switch:checked + .switch-label:before {
+	left: 20px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), 0 0 0 2px #1f82b7;
+	transition: .25s ease-in-out;
+}

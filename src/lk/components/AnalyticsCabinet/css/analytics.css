@@ -1,0 +1,112 @@
+.analytic-office {
+	margin-top: 20px;
+	display: block;
+	position: relative;
+	background-color: rgba(255, 255, 255);
+	padding: 20px 20px 10px 20px;
+	min-height: 530px;
+	margin-bottom: 20px;
+}
+
+.analytic-office__close-window {
+	float: right;
+	width: 10px;
+	height: 10px;
+	margin-right: -12px;
+	margin-top: -12px;
+	background-position: 50% 50%;
+	background-size: 10px 10px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20width%3D%2210.99521541595459%22%20height%3D%2210.425837516784668%22%20style%3D%22%22%3E%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22none%22%20stroke%3D%22none%22%20style%3D%22%22%20class%3D%22%22/%3E%0A%20%3C%21--%20Created%20with%20Method%20Draw%20-%20http%3A//github.com/duopixel/Method-Draw/%20--%3E%0A%20%3Cg%20style%3D%22%22%3E%0A%20%20%3Ctitle%3Ebackground%3C/title%3E%0A%20%20%3Crect%20fill%3D%22none%22%20id%3D%22canvas_background%22%20height%3D%2221%22%20width%3D%2223%22%20y%3D%22-1%22%20x%3D%22-1%22/%3E%0A%20%20%3Cg%20display%3D%22none%22%20overflow%3D%22visible%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22canvasGrid%22%3E%0A%20%20%20%3Crect%20fill%3D%22url%28%23gridpattern%29%22%20stroke-width%3D%220%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22svg_2%22/%3E%0A%20%20%3C/g%3E%0A%20%3C/g%3E%0A%20%3Cg%20style%3D%22%22%20class%3D%22currentLayer%22%3E%0A%20%20%3Ctitle%3ELayer%201%3C/title%3E%0A%20%20%0A%20%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7061010362202458%2C0.7361752231222298%20L10.25837280040887%2C9.746411085941524%20%22%20id%3D%22svg_4%22%20class%3D%22%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M22.435406419025476%2C20.344497463318135%20L32.17224870200684%2C29.74641151052127%20%22%20class%3D%22%22%20id%3D%22svg_8%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M20.593301149593408%2C20.511961585494305%20L30.330143432574772%2C29.91387563269744%20%22%20class%3D%22%22%20id%3D%22svg_7%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7123433214743935%2C9.667867347052209%20L10.20385556189138%2C0.7949030953365497%20%22%20id%3D%22svg_9%22%20class%3D%22%22/%3E%3C/g%3E%0A%3C/svg%3E');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.analytic-office__section {
+	border: 2px solid #ffdd5e;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.analytic_button {
+	min-width: 150px;
+	max-width: 180px;
+	width: 100%;
+	height: 30px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px -2px 0px 0px inset;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: inherit;
+	font-size: 12px;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
+	line-height: 1.9em;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
+	background: linear-gradient(rgb(253, 227, 146) 0%, rgb(254, 206, 80) 100%) repeat-x;
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 0.25em;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin: 10px 20px 10px 0;
+}
+
+.analytic_button:hover {
+	background: linear-gradient(rgb(254, 206, 80) 0%, rgb(255, 198, 51) 100%);
+}
+
+ul.analytic-office__large-container-list {
+	max-height: 340px;
+}
+
+ul.analytic-office__medium-container-list {
+	max-height: 200px;
+}
+
+ul.analytic-office__small-container-list {
+	max-height: 120px;
+}
+
+ul.analytic-office__xsmall-container-list {
+	max-height: 100px;
+}
+
+ul.analytic-office__xxsmall-container-list {
+	max-height: 60px;
+}
+
+.analytic-office__buttons-wrapper {
+	text-align: center;
+}
+
+.lognormal-distribution__window {
+	padding-bottom: 5px;
+	min-height: 350px;
+}
+.lognormal-distribution__breadcrumb {
+	margin-bottom: 10px;
+}
+
+.lognormal-distribution__breadcrumb a {
+	display: inline-block;
+	text-decoration: underline;
+	color: #1f82b7;
+	font-size: small;
+}
+
+.lognormal-distribution__breadcrumb a:nth-child(3) {
+	text-decoration: none;
+	color: #000;
+	cursor: none;
+}
+
+.lognormal-distribution__setup-module {
+	font-size: medium;
+	cursor: pointer;
+	float: right;
+    margin-top: -25px;
+}

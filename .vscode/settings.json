@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.insertSpaces": false,
+
+
+    "files.autoSave": "onFocusChange",
+    
+    "eslint.options": {
+        "configFile": "C:/Projects/www.areall.ru/frontend/.eslintrc.json"
+    },
+
+    "eslint.run": "onSave",
+    "workbench.colorTheme": "Solarized Light"
+}

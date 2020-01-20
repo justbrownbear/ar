@@ -1,0 +1,56 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "${workspaceRoot}/node_modules/.bin/webpack",
+    "isShellCommand": true,
+    "args": [
+        // Ask msbuild to generate full paths for file names.
+        //"/property:GenerateFullPaths=true",
+        //"/t:build"
+        "--display-modules",
+        "--progress",
+        "--config ${workspaceRoot}/webpack.config.js"
+    ],
+    "tasks": [
+		{
+			"args": [
+				"-d" 
+			],
+			"suppressTaskName": true,
+			"taskName": "webpack dev",
+			"isBuildCommand": true
+		},
+		{
+			"args": [
+				"-p"
+			],
+			"suppressTaskName": true,
+			"taskName": "webpack dist",
+			"isBuildCommand": false
+		}
+	]
+
+
+    
+    // "tasks": [
+    //     {
+    //         "taskName": "build",
+    //         //"command": "msbuild",
+    //         "echoCommand": true,
+
+
+
+
+
+
+    //         "group": "build",
+    //         "presentation": {
+    //             // Reveal the output only if unrecognized errors occur.
+    //             "reveal": "silent"
+    //         },
+    //         // Use the standard MS compiler pattern to detect errors, warnings and infos
+    //         "problemMatcher": "$msCompile"
+    //     }
+    // ]
+}

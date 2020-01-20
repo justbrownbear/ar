@@ -1,0 +1,18 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+./flow-typed/
+
+[untyped]
+
+
+[lints]
+all=warn
+
+[options]
+module.name_mapper='^lk\(.*\)$' -> '<PROJECT_ROOT>/src/lk/\1'
+
+[strict]

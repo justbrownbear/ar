@@ -1,0 +1,83 @@
+.analytic-office__collapsible-container .analytic-office__collapsible-trigger:before {
+	font-family: 'FontAwesome';
+	content: '\f107';
+	left: 10px;
+	top: 65px;
+	padding: 0px 10px;
+	display: inline-block;
+	transition: transform 300ms;
+}
+
+.analytic-office__collapsible-container.is-open .analytic-office__collapsible-trigger:before {
+	font-family: 'FontAwesome';
+	content: '\f106';
+	left: 10px;
+	top: 65px;
+	padding: 0px 10px;
+	display: inline-block;
+	transition: transform 300ms;
+}
+
+.analytic-office__select-all {
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+.analytic-office__select-all input {
+	margin-right: 5px;
+}
+
+.analytic-office__collapsible-container {
+	background: #fde392;
+	padding: 5px 0 5px 0;
+	border-bottom: 5px solid #fff;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+
+.analytic-office__collapsible-container.is-open
+{
+	padding: 5px 0 0 0;
+}
+
+.analytic-office__collapsible-container.is-open:hover{
+	background: #fece50;
+}
+
+.analytic-office__collapsible-inner-container
+{
+	margin-top: 5px;
+}
+
+
+.analytic-office__collapsible-container .analytic-office__collapsible-inner-container
+{
+	display: none;
+}
+
+
+.analytic-office__collapsible-container.is-open .analytic-office__collapsible-inner-container {
+	display: block;
+	width: 100%;
+	padding: 10px 10px 0px 10px;
+	background: #fff;
+}
+
+.analytic-office__collapsible-trigger-setting {
+	display: block;
+	font-family: Tahoma, Arial, sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 5px 0px;
+	background: #c9ffb4;
+	color: #383838;
+	width: 100%;
+	min-height: 30px;
+}
+
+.disabled {
+	opacity: 0.55;
+}

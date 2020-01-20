@@ -1,0 +1,34 @@
+.ReactTable .rt-thead [role="columnheader"]
+{
+	outline: 0;
+}
+
+.-sort-desc
+{
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAf0lEQVRIie3NsQ2AIBBG4VexCK7jcI5i4wxWTkHHENgciTEqwl1j5E+uueJ70PeLjcAKTIAz8JxYq9hEIMnNyogTI3sRYDs8NJEznsRmAIIycoUHsdFGirgm8hpviVTjNZFm/E1EjZciJvhTxAwvRUzwu4gpnueBRc5b430f3g7Df2mv+hrjPwAAAABJRU5ErkJggg==');
+	background-repeat: no-repeat;
+	background-size: 8px 8px;
+	background-position: 100% 50%;
+	min-height: 8px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.-sort-asc
+{
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACYSURBVEhL7Y1LCoNAEAUbAm5zh+jVcgPPJWSTY7j2ANl5AyGY19IPBvE3PbMKU1B+elFPCoWQGr5N/c5KAz9wNvVbb1lYx7OO7MVp0shW/GWGN9fIXrwyk0aO4sQ9ciVOokdi4uTyiCdOTkdS4uRwpLcDjY2TrRFtyxgcvHGyHhlveAzwATv4hBP08oXauS9/Iq29C/+LyA9blGuPwN1FfwAAAABJRU5ErkJggg==');
+	background-repeat: no-repeat;
+	background-size: 8px 8px;
+	background-position: 100% 50%;
+	min-height: 8px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+	box-shadow: none;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+	box-shadow: none;
+}

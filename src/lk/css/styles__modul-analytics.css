@@ -1,0 +1,119 @@
+/* новые стили блока кабинет аналитики
+------------------------------------------------------------------------------------------- */
+.b-searching-results__analytics-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-bottom: -10px;
+    min-height: 100px;
+    padding: 10px 20px 20px;
+    position: relative;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-color: 1px solid #e7e7e7; 
+}
+.b-searching-results__analytics{
+	margin-top: 20px;
+}
+.b-searching-results__statistics{
+	margin-top: 20px;
+}
+.b-searching-results__analytics-section {
+    float: left;
+    display: block;
+    margin-right: 3px;
+    position: relative;
+    min-width: 200px;
+}
+.b-searching-results__analytics-section:before {
+    bottom: 0;
+    content: "";
+    height: 70%;
+    position: absolute;
+    right: 0;
+}
+.b-searching-results__analytics-section-title-name-container {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: medium;
+	font-weight: 800;
+    /*color: #fff;*/
+}
+.b-searching-results__analytics-section-title {
+	font-size: small;
+    color: #fff;
+}
+.b-searching-results__analytics-section-values {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.b-searching-results__analytics-section-button {
+	float: left;
+    /*margin-right: 20px;*/
+    margin-top: 10px;
+    position: relative;
+
+}
+.analytics_button {
+	border-color: #FFDD5E;
+    background: linear-gradient(to bottom, #FFDD5E 0%,#FECE50 100%);
+    background-repeat: repeat-x;
+    border: 0 none;
+    border-radius: 0.25em;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1), 0 -2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    color: #000;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 12px;
+    height: 30px;
+    min-width: 150px;
+    width: 100%;
+    white-space: nowrap;
+    letter-spacing: -0.02em;
+    line-height: 1.9em;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+.b-searching-results__analytics-container .button-close .icon-close {
+    background-position: -50px 0;
+}
+.b-searching-results__analytics-container .button-close .icon {
+    background-image: url(../img/sprites/panel-controls__icons.png);
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* общий блок настройки дппм и анализ субъектов NEW
+------------------------------------------------------------------------------------------ */
+.b-searching-results__analytics-container-block {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.b-searching-results__analytics-section-block {
+	background: none repeat scroll 0 0 #f0f0f0;
+    border: 2px solid #ffdd5e;
+    border-radius: 7px;
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 3px;
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+}
+.b-searching-results__analytics-section-title-name-container {
+	margin-top: 5px;
+}

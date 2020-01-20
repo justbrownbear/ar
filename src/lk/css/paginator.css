@@ -1,0 +1,61 @@
+/* пагинатор новые стили
+------------------------------------------------------------------------------------------ */
+*.pagination,
+.pagination *,
+.pagination *:before,
+.pagination *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+.pagination {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  margin: 2em auto;
+  text-align: center;
+  transition: font-size .2s ease-in-out;
+}
+ul.pagination li {
+    list-style-type: none;
+    display: inline;
+    font-size: 100%;
+    margin-top: 0;
+    padding: 0.3em;
+}
+.pagination > a {
+  font-size: 140%;
+}
+.pagination a {
+  color: #000;
+  font-size: 100%;
+  padding: 0.7em 1em;
+}
+.pagination a:focus,
+.pagination a:hover {
+  color: rgba(213, 28, 56, 1);
+  font-weight: 900;
+  font-size: 16px;
+}
+.pagination .active a {
+    background-color: rgba(213, 28, 56, 1);
+    color: #fff;
+    height: 20px;
+    min-width: 30px;
+    position: relative;
+    -webkit-border-radius: 20px 20px;
+    -moz-border-radius: 20px 20px;
+    border-radius: 20px 20px; 
+}
+/*Disabled & Hidden Styles*/
+.pagination .disabled,
+.pagination [hidden],
+.pagination [disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}

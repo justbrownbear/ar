@@ -1,0 +1,9 @@
+.menu {
+    border: 1px solid #ccc;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 4px 8px;
+    cursor: pointer;
+}

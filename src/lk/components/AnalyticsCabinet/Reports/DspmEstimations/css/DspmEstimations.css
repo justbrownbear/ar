@@ -1,0 +1,80 @@
+.report3-table-wrapper {
+	max-width: 1600px;
+	overflow: scroll;
+	height: 470px;
+}
+
+.report3-table {
+	border-collapse: separate;
+	font-size: 12px;
+	min-width: 600px;
+}
+.report3-table th {
+	background-color: #72a0d0;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 400;
+	padding: 2px 3px;
+	word-wrap: break-word;
+	hyphens: auto;
+	vertical-align: top;
+}
+table.report3-table th, table.report3-table tr {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.report3-table td {
+	height: 30px;
+    width: 15px;
+    max-width: 130px;
+	padding: 2px 3px;
+	vertical-align: top;
+	border: 1px solid #fff;
+	background-color: #ccdbec;
+}
+	
+table.report3-table tr:nth-child(2n) td {
+	background-color: #e6eef5;
+}
+
+table.report3-table tr:nth-child(2n) td.report3-table-hide-column {
+	background-color: #fff;
+}
+
+td.report3-table-title {
+	border: none;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+th.report3-table-hide-column, td.report3-table-hide-column {
+	min-width: 15px;
+	border: none;
+	background-color: #fff;
+}
+
+.report3-title {
+	text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #113458;
+    font-size: 18px;
+    font-weight: 500;
+}
+.report3-table-nowrap {
+	white-space: nowrap;
+}
+.report3-close-report {
+	float: right;
+	width: 10px;
+	height: 10px;
+	background-position: 50% 50%;
+	background-size: 10px 10px;
+	margin-right: -3px;
+	margin-top: -3px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20width%3D%2210.99521541595459%22%20height%3D%2210.425837516784668%22%20style%3D%22%22%3E%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22none%22%20stroke%3D%22none%22%20style%3D%22%22%20class%3D%22%22/%3E%0A%20%3C%21--%20Created%20with%20Method%20Draw%20-%20http%3A//github.com/duopixel/Method-Draw/%20--%3E%0A%20%3Cg%20style%3D%22%22%3E%0A%20%20%3Ctitle%3Ebackground%3C/title%3E%0A%20%20%3Crect%20fill%3D%22none%22%20id%3D%22canvas_background%22%20height%3D%2221%22%20width%3D%2223%22%20y%3D%22-1%22%20x%3D%22-1%22/%3E%0A%20%20%3Cg%20display%3D%22none%22%20overflow%3D%22visible%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22canvasGrid%22%3E%0A%20%20%20%3Crect%20fill%3D%22url%28%23gridpattern%29%22%20stroke-width%3D%220%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22svg_2%22/%3E%0A%20%20%3C/g%3E%0A%20%3C/g%3E%0A%20%3Cg%20style%3D%22%22%20class%3D%22currentLayer%22%3E%0A%20%20%3Ctitle%3ELayer%201%3C/title%3E%0A%20%20%0A%20%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7061010362202458%2C0.7361752231222298%20L10.25837280040887%2C9.746411085941524%20%22%20id%3D%22svg_4%22%20class%3D%22%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M22.435406419025476%2C20.344497463318135%20L32.17224870200684%2C29.74641151052127%20%22%20class%3D%22%22%20id%3D%22svg_8%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M20.593301149593408%2C20.511961585494305%20L30.330143432574772%2C29.91387563269744%20%22%20class%3D%22%22%20id%3D%22svg_7%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7123433214743935%2C9.667867347052209%20L10.20385556189138%2C0.7949030953365497%20%22%20id%3D%22svg_9%22%20class%3D%22%22/%3E%3C/g%3E%0A%3C/svg%3E');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}

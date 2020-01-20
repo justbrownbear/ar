@@ -1,0 +1,44 @@
+{
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"extends": "react-app",
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			"error",
+			"windows"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+	"jsx-a11y/href-no-hash": "off"
+	//"jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
+	},
+	"settings": {
+	}
+}

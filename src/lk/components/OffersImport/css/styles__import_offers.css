@@ -1,0 +1,301 @@
+.group-block {
+	display: inline-block;
+}
+
+.group-block .element-form input[type="text"] {
+	margin-bottom: 20px;
+}
+
+.group-block .element-form input[type="text"].date-picker-icon {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20version%3D%221.1%22%20width%3D%2224.959183673469397%22%20height%3D%2224.244897959183675%22%20style%3D%22%22%20xml%3Aspace%3D%22preserve%22%3E%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22none%22%20stroke%3D%22none%22%20style%3D%22%22%20class%3D%22%22/%3E%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%3Cg%20class%3D%22currentLayer%22%20style%3D%22%22%3E%3Ctitle%3ELayer%201%3C/title%3E%3Cg%20id%3D%22svg_1%22%20class%3D%22%22%3E%0A%09%3Cg%20id%3D%22svg_2%22%3E%0A%09%09%3Cpath%20d%3D%22M9.309944227651052%2C13.292658983555475%20c0%2C-0.28328873701034335%20-0.2412408100128042%2C-0.5127919918180652%20-0.5389008417221515%2C-0.5127919918180652%20h-1.880559661117957%20c-0.2973195708887663%2C0%20-0.5386090181616526%2C0.22950325480772507%20-0.5386090181616526%2C0.5127919918180652%20v1.79099633243169%20c0%2C0.2836593518747884%200.241289447272888%2C0.5132552603986201%200.5386090181616526%2C0.5132552603986201%20h1.880559661117957%20c0.2976600317093484%2C0%200.5389008417221515%2C-0.22959590852383532%200.5389008417221515%2C-0.5132552603986201%20V13.292658983555475%20L9.309944227651052%2C13.292658983555475%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_3%22/%3E%0A%09%09%3Cpath%20d%3D%22M14.009714032233157%2C13.292658983555475%20c0%2C-0.28328873701034335%20-0.241289447272888%2C-0.5127919918180652%20-0.5383658318612339%2C-0.5127919918180652%20h-1.8808028474183769%20c-0.2973195708887663%2C0%20-0.5386090181616526%2C0.22950325480772507%20-0.5386090181616526%2C0.5127919918180652%20v1.79099633243169%20c0%2C0.2836593518747884%200.241289447272888%2C0.5132552603986201%200.5386090181616526%2C0.5132552603986201%20h1.8808028474183769%20c0.2970763845883501%2C0%200.5383658318612339%2C-0.22959590852383532%200.5383658318612339%2C-0.5132552603986201%20V13.292658983555475%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_4%22/%3E%0A%09%09%3Cpath%20d%3D%22M18.70972702311567%2C13.292658983555475%20c0%2C-0.28328873701034335%20-0.241289447272888%2C-0.5127919918180652%20-0.5386090181616526%2C-0.5127919918180652%20h-1.880559661117957%20c-0.2976600317093484%2C0%20-0.5389008417221515%2C0.22950325480772507%20-0.5389008417221515%2C0.5127919918180652%20v1.79099633243169%20c0%2C0.2836593518747884%200.2412408100128042%2C0.5132552603986201%200.5389008417221515%2C0.5132552603986201%20h1.880559661117957%20c0.2973195708887663%2C0%200.5386090181616526%2C-0.22959590852383532%200.5386090181616526%2C-0.5132552603986201%20V13.292658983555475%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_5%22/%3E%0A%09%09%3Cpath%20d%3D%22M9.309944227651052%2C17.769640219196084%20c0%2C-0.2837520055908988%20-0.2412408100128042%2C-0.5130699529663982%20-0.5389008417221515%2C-0.5130699529663982%20h-1.880559661117957%20c-0.2973195708887663%2C0%20-0.5386090181616526%2C0.22931794737550143%20-0.5386090181616526%2C0.5130699529663982%20v1.7906720444252997%20c0%2C0.2834740444425645%200.241289447272888%2C0.5130236261083446%200.5386090181616526%2C0.5130236261083446%20h1.880559661117957%20c0.2976600317093484%2C0%200.5389008417221515%2C-0.22959590852383532%200.5389008417221515%2C-0.5130236261083446%20V17.769640219196084%20L9.309944227651052%2C17.769640219196084%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_6%22/%3E%0A%09%09%3Cpath%20d%3D%22M14.009714032233157%2C17.769640219196084%20c0%2C-0.2837520055908988%20-0.241289447272888%2C-0.5130699529663982%20-0.5383658318612339%2C-0.5130699529663982%20h-1.8808028474183769%20c-0.2973195708887663%2C0%20-0.5386090181616526%2C0.22931794737550143%20-0.5386090181616526%2C0.5130699529663982%20v1.7906720444252997%20c0%2C0.2834740444425645%200.241289447272888%2C0.5130236261083446%200.5386090181616526%2C0.5130236261083446%20h1.8808028474183769%20c0.2970763845883501%2C0%200.5383658318612339%2C-0.22959590852383532%200.5383658318612339%2C-0.5130236261083446%20V17.769640219196084%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_7%22/%3E%0A%09%09%3Cpath%20d%3D%22M18.70972702311567%2C17.769640219196084%20c0%2C-0.2837520055908988%20-0.241289447272888%2C-0.5130699529663982%20-0.5383658318612339%2C-0.5130699529663982%20h-1.8808028474183769%20c-0.2976600317093484%2C0%20-0.5389008417221515%2C0.22931794737550143%20-0.5389008417221515%2C0.5130699529663982%20v1.7906720444252997%20c0%2C0.2834740444425645%200.2412408100128042%2C0.5130236261083446%200.5389008417221515%2C0.5130236261083446%20h1.8808028474183769%20c0.2970763845883501%2C0%200.5383658318612339%2C-0.22959590852383532%200.5383658318612339%2C-0.5130236261083446%20V17.769640219196084%20L18.70972702311567%2C17.769640219196084%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_8%22/%3E%0A%09%09%3Cpath%20d%3D%22M22.07236127348972%2C3.33437655648567%20v2.7356009681865308%20c0%2C1.2364638415054787%20-1.053093955322023%2C2.232861904566543%20-2.351027877903009%2C2.232861904566543%20h-1.48309597171783%20c-1.2980311971011518%2C0%20-2.3650840460670612%2C-0.9963980630610655%20-2.3650840460670612%2C-2.232861904566543%20V3.324555262577873%20h-6.684705025838666%20v2.74542226209433%20c0%2C1.2364638415054787%20-1.0670042117058254%2C2.232861904566543%20-2.3648408597666446%2C2.232861904566543%20H5.3402196969181785%20c-1.297885285320903%2C0%20-2.3509306033828423%2C-0.9963980630610655%20-2.3509306033828423%2C-2.232861904566543%20v-2.7356009681865308%20C1.8549222766142428%2C3.3669443376987984%200.9227891871192044%2C4.261006371314916%200.9227891871192044%2C5.359925771253149%20v16.031918825598623%20c0%2C1.1195811786310566%200.9527066505102436%2C2.039076657319732%202.128123314941581%2C2.039076657319732%20h18.9597767256434%20c1.1736657230683414%2C0%202.128123314941581%2C-0.9213948798689565%202.128123314941581%2C-2.039076657319732%20V5.359925771253149%20C24.138812542645766%2C4.261006371314916%2023.206728090410813%2C3.3669443376987984%2022.07236127348972%2C3.33437655648567%20zM21.383511758930982%2C20.393500805752375%20c0%2C0.4838377055332803%20-0.41186031838476533%2C0.8763651738388596%20-0.920022411734316%2C0.8763651738388596%20H4.5575975449189805%20c-0.5081620933495512%2C0%20-0.920022411734316%2C-0.39252746830558205%20-0.920022411734316%2C-0.8763651738388596%20V12.112435947729564%20c0%2C-0.4840230129655033%200.41181168112468214%2C-0.8765504812710808%200.920022411734316%2C-0.8765504812710808%20h15.905843165017604%20c0.5081620933495512%2C0%200.920022411734316%2C0.39252746830558205%200.920022411734316%2C0.8765504812710808%20L21.383511758930982%2C20.393500805752375%20L21.383511758930982%2C20.393500805752375%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_9%22/%3E%0A%09%09%3Cpath%20d%3D%22M5.3350155100892716%2C6.836270083770819%20h1.466997038630282%20c0.44527411606194156%2C0%200.8063084976597341%2C-0.34337467190853205%200.8063084976597341%2C-0.7674970574080672%20V1.5841015322849052%20C7.608321046379285%2C1.1599328199273131%207.247286664781496%2C0.8163265137285052%206.8020125487195555%2C0.8163265137285052%20H5.3350155100892716%20C4.88969275676725%2C0.8163265137285052%204.5287070124295425%2C1.1599328199273131%204.5287070124295425%2C1.5841015322849052%20v4.484671494077849%20C4.5287070124295425%2C6.492895411862291%204.88969275676725%2C6.836270083770819%205.3350155100892716%2C6.836270083770819%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_10%22/%3E%0A%09%09%3Cpath%20d%3D%22M18.219366166956583%2C6.836270083770819%20h1.466997038630282%20c0.44498229250144244%2C0%200.8060166740992342%2C-0.34337467190853205%200.8060166740992342%2C-0.7674970574080672%20V1.5841015322849052%20C20.492428516946177%2C1.1599328199273131%2020.13139413534839%2C0.8163265137285052%2019.686363205586865%2C0.8163265137285052%20h-1.466997038630282%20c-0.4452254788018585%2C0%20-0.806259860399649%2C0.3436063061988088%20-0.806259860399649%2C0.7677750185564043%20v4.484671494077849%20C17.413106306556944%2C6.492895411862291%2017.774140688154727%2C6.836270083770819%2018.219366166956583%2C6.836270083770819%20z%22%20fill%3D%22%23113458%22%20id%3D%22svg_11%22/%3E%0A%09%3C/g%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_12%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_13%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_14%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_15%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_16%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_17%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_18%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_19%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_20%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_21%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_22%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_23%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_24%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_25%22%3E%0A%3C/g%3E%3Cg%20id%3D%22svg_26%22%3E%0A%3C/g%3E%3C/g%3E%3C/svg%3E');
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px center;
+	width: 218px;
+}
+
+.group-block.add-top_block > .element-form {
+	font-size: small;
+}
+
+#offers-download {
+	width: 100%;
+}
+
+.offers-download__title {
+	font-weight: 500;
+	font-size: large;
+	text-align: center;
+}
+
+.offers-download__close-window {
+	float: right;
+	width: 10px;
+	height: 10px;
+	margin-right: -12px;
+	margin-top: -12px;
+	background-position: 50% 50%;
+	background-size: 10px 10px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20width%3D%2210.99521541595459%22%20height%3D%2210.425837516784668%22%20style%3D%22%22%3E%3Crect%20id%3D%22backgroundrect%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22none%22%20stroke%3D%22none%22%20style%3D%22%22%20class%3D%22%22/%3E%0A%20%3C%21--%20Created%20with%20Method%20Draw%20-%20http%3A//github.com/duopixel/Method-Draw/%20--%3E%0A%20%3Cg%20style%3D%22%22%3E%0A%20%20%3Ctitle%3Ebackground%3C/title%3E%0A%20%20%3Crect%20fill%3D%22none%22%20id%3D%22canvas_background%22%20height%3D%2221%22%20width%3D%2223%22%20y%3D%22-1%22%20x%3D%22-1%22/%3E%0A%20%20%3Cg%20display%3D%22none%22%20overflow%3D%22visible%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22canvasGrid%22%3E%0A%20%20%20%3Crect%20fill%3D%22url%28%23gridpattern%29%22%20stroke-width%3D%220%22%20y%3D%220%22%20x%3D%220%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20id%3D%22svg_2%22/%3E%0A%20%20%3C/g%3E%0A%20%3C/g%3E%0A%20%3Cg%20style%3D%22%22%20class%3D%22currentLayer%22%3E%0A%20%20%3Ctitle%3ELayer%201%3C/title%3E%0A%20%20%0A%20%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7061010362202458%2C0.7361752231222298%20L10.25837280040887%2C9.746411085941524%20%22%20id%3D%22svg_4%22%20class%3D%22%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M22.435406419025476%2C20.344497463318135%20L32.17224870200684%2C29.74641151052127%20%22%20class%3D%22%22%20id%3D%22svg_8%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%23222222%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M20.593301149593408%2C20.511961585494305%20L30.330143432574772%2C29.91387563269744%20%22%20class%3D%22%22%20id%3D%22svg_7%22/%3E%3Cpath%20fill%3D%22%234a90d6%22%20fill-opacity%3D%221%22%20stroke%3D%22%239a9a9a%22%20stroke-opacity%3D%221%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%22none%22%20stroke-linejoin%3D%22round%22%20stroke-linecap%3D%22butt%22%20stroke-dashoffset%3D%22%22%20fill-rule%3D%22nonzero%22%20opacity%3D%221%22%20marker-start%3D%22%22%20marker-mid%3D%22%22%20marker-end%3D%22%22%20d%3D%22M0.7123433214743935%2C9.667867347052209%20L10.20385556189138%2C0.7949030953365497%20%22%20id%3D%22svg_9%22%20class%3D%22%22/%3E%3C/g%3E%0A%3C/svg%3E');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.offers-download__section {
+	border: 2px solid #ffdd5e;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+ul.offers-download__container-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 0;
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+}
+
+ul.offers-download__xxsmall-container-list {
+	max-height: 60px;
+}
+
+ul.offers-download__list li {
+	width: 33%;
+	height: 25px;
+	border: 1px solid rgba(0, 126, 255, 0.24);
+	max-width: 200px;
+	border-radius: 14px;
+	text-align: center;
+	vertical-align: middle;
+	background-clip: border-box;
+	list-style: none;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding-top: 4px;
+}
+
+li.offers-download__list-item-selected {
+	background-color: rgba(0, 126, 255, 0.08);
+}
+
+.offers-download__button {
+	min-width: 150px;
+	max-width: 200px;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px -2px 0px 0px inset;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: inherit;
+	font-size: 12px;
+	height: 30px;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
+	line-height: 1.9em;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
+	background: linear-gradient(rgb(253, 227, 146) 0%, rgb(254, 206, 80) 100%);
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 0.25em;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.offers-download__button:hover {
+	background: linear-gradient(rgb(254, 206, 80) 0%, rgb(255, 198, 51) 100%);
+}
+
+.offers-download__select-block-wrapper {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1600px;
+}
+
+.offers-download__select-block {
+	font-size: small;
+	margin-bottom: 10px;
+}
+
+.offers-download__select-block select {
+	margin-top: 5px;
+}
+
+.offers-download__select-block div.css-10nd86i {
+	margin-top: 5px;
+}
+
+@media (min-width: 600px) {
+  .offers-download__select-block-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+   .offers-download__select-block {
+	 width: 49%;
+  }
+}
+@media (min-width: 900px) {
+  .offers-download__select-block {
+	width: 32%;
+  }
+}
+
+.offers-download__progress-bar {
+	text-align: center;
+	vertical-align: top;
+}
+
+.offers-download__information-message {
+	font-size: large;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.offers-download__table {
+	border-collapse: separate;
+	border-spacing: 2px 0;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	width: 100%;
+}
+
+.offers-download__table th {
+	border-bottom: 2px solid #aaa;
+	padding: 2px 5px;
+	font-weight: 500;
+	vertical-align: top;
+	text-align: center;
+}
+
+.offers-download__table th:first-child, th:nth-child(2), th:last-child {
+	width: 5%;
+}
+
+.offers-download__table th:nth-child(3) {
+	width: 15%;
+}
+
+.offers-download__table th:nth-child(4) {
+	width: 40%;
+}
+
+.offers-download__table th:nth-child(5) {
+	width: 10%;
+}
+
+.offers-download__table th:nth-child(6) {
+	width: 20%;
+}
+
+.offers-download__table td {
+	border-bottom: 1px dotted #bbb;
+	line-height: 2.8em;
+	padding: 0 5px;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+}
+
+.offers-download__table td:first-child, td:nth-child(2), td:nth-child(7), td:nth-child(8), td:nth-child(9), td:nth-child(10) {
+	text-align: center;
+}
+
+.offers-download__table tbody tr:hover > td,
+.offers-download__table tbody tr:hover > th {
+	background-color: #f9f9f9;
+}
+
+
+.offers-download__table td a {
+	text-decoration: underline;
+}
+
+.offers-download__table td a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.offers-download__table tr:hover .offers-download__table-controls .a-icon {
+	opacity: 0.6;
+}
+
+.offers-download__table-controls {
+	border: 1px solid rgba(0, 0, 0, 0);
+	 -webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+			 border-radius: 3px;
+	margin: 0 auto;
+	display: block;
+	height: 30px;
+	position: relative;
+	width: 30px;
+}
+
+.offers-download__table-controls .a-icon {
+	left: 6px;
+	opacity: 0.3;
+	position: absolute;
+	top: 6px;
+}
+
+.offers-download__table-controls:hover {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.b__a-table tr:hover .offers-download__table-controls .a-icon {
+	opacity: 0.6;
+}
+
+.offers-download__log {
+	background-color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	padding: 10px;
+	position: relative;
+}
+
+.offers-download__data-picker-title {
+	font-size: small;
+}
+
+.offers-download__block {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.offers-download__block button:last-child {
+	margin-left: 0;
+}
+
+.offers-download__article-container {
+	font-size: small;
+}
+
+.offers-download__tooltip {
+	width: 500px;
+	border-bottom: 2px solid #ccc;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: medium;
+}
+
+.offers-download__new-note td {
+	background: #c9ffb4;
+	font-weight: bolder;
+}
+
+.offers-download__service-messages {
+	font-weight: 500;
+	font-size: medium;
+	color: black;
+}

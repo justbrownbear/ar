@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Авторизация</title>
+
+	<link href="img/favicon.ico" rel="shortcut icon">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/style__b-steps.css" rel="stylesheet" type="text/css">
+
+	<script src="js/react/react.js" language="JavaScript"></script>
+	<script src="js/react/react-dom.js" language="JavaScript"></script>
+</head>
+<body>
+<div class="b-head-top__container">
+	<div class="container wrap">
+		<div class="b-head-top__logo">
+			<a href="/"></a>
+		</div>
+		<div class="b-location">
+			<div class="b-location__region-choose">
+				<span class="b-location__title">Мой регион</span>
+				<div class="b-location__content">
+					<div class="b-location__region-select-link icon__arrow-down">
+						г Омск
+					</div>
+				</div>
+			</div>
+			<div class="b-location__region-search">
+				<div class="b-location__content">
+					<input autocomplete="off" class="ui-autocomplete-input" id="geo" style="width:400px" value="Омск">
+					<div id="js__region_list">
+						<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1"
+							style="display: none;" tabindex="0"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="b-location__fixed-region-select">
+			<div class="b-section__header">
+				<span class="h1">Омская обл</span>
+			</div>
+			<div class="fixed-region__list">
+				<dl>
+					<dd>
+						<ul class="fixed-region__list-items" id="js__current_region_settlements"></ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="b-head-top__search">
+			<div class="b-head-top__search-bookmark br-5__only-b">
+				<span><i class="fa fa-search"></i></span>
+			</div>
+		</div>
+		<div class="b-head-top__navigation clearfix">
+			<ul>
+				<li class="navigation-links">
+					<ul>
+						<li>
+							<a href="/how_it_works">Как это работает</a>
+						</li>
+						<li>
+							<a href="/cooperation">Сотрудничество</a>
+						</li>
+						<li>
+							<a href="/help">Помощь</a>
+						</li>
+					</ul>
+				</li>
+				<li class="fr b-head-top__language" id="lang">
+					<div class="language-link rus can_hide hide" onclick="return change_hide( " lang
+					" );">
+					<span>Rus</span>
+		</div>
+		<div class="language-link eng can_hide" onclick="return change_hide( " lang
+		" );">
+		<span>Eng</span>
+	</div>
+</div>
+<div class="b-fade__close-icon"></div>
+<div class="b-fade fade_yes"></div>
+</div>
+</div>
+<div class="container">
+	<div class="b-bookmark-top clearfix">
+		<ul class="b-bookmark-top__container">
+			<li class="home"><span class="bg_left-bottom_angle"></span> <span class="bg_center"><a href="/"><i
+					class="icon fa fa-home"></i></a></span> <span class="bg_right-bottom_angle"></span></li>
+		</ul>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-24">
+				<div class="b-section__header breakline__yes">
+					<h1>Авторизация</h1>
+					<div class="breakline"></div>
+					<p>Для предоставления доступа к сервисам необходимо авторизоваться. Если Вы у нас впервые
+						зарегистрируйтесь</p>
+				</div>
+				<div class="b-section__content">
+					<div class="row">
+						<div class="b-inner-container bgw_shadow br-10">
+							<div id="authentication"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-footer clearfix">
+		<div class="l-section__wrap">
+			<div class="l-section"></div>
+		</div>
+		<div class="c-section"></div>
+		<div class="r-section__wrap">
+			<div class="r-section"></div>
+		</div>
+		<span class="copyright">Ареалл © 2014 - 2015 - продвижение недвижимости</span>
+	</div>
+</div>
+<span aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" role="status"></span>
+
+
+<script language="JavaScript" src="authentication.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*===== hot search =====*/
+
+.hot-search__grid-row-margin {
+	margin-right: 0;
+	margin-top: 15px;
+}
+
+.hot-search__image-new-building {
+	background: url( /img/lk/search/fast_search/new_building.jpg ) rgba(234, 68, 53, 0.9) no-repeat;
+}
+
+.hot-search__image-mstorey-residential-buildings {
+	background: url( /img/lk/search/fast_search/m_storey_residential_buildings.jpg ) rgba(52, 168, 83, 0.9) no-repeat;
+}
+
+.hot-search__image-building {
+	background: url( /img/lk/search/fast_search/building.jpg ) rgba(33, 150, 243, 0.9) no-repeat;
+}
+
+.hot-search__image-land {
+	background: url( /img/lk/search/fast_search/land.jpg ) rgba(0, 150, 136, 0.9) no-repeat;
+}
+
+.hot-search__image-building5000 {
+	background: url( /img/lk/search/fast_search/building_5000.jpg ) rgba(96, 125, 139, 0.9) no-repeat;
+}
+
+.hot-search__image-property-complex {
+	background: url( /img/lk/search/fast_search/property_complex.jpg ) rgba(238, 87, 34, 0.9) no-repeat;
+}
+
+.hot-search__image-period {
+	background: url( /img/lk/search/fast_search/period.jpg ) rgba(255, 152, 0, 0.9) no-repeat;
+}
+
+.hot-search__image-office {
+	background: url( /img/lk/search/fast_search/office.jpg ) rgba(0, 188, 212, 0.9) no-repeat;
+}
+
+.hot-search__image-ready-business {
+	background: url( /img/lk/search/fast_search/ready_business.jpg ) rgba(139, 195, 74, 0.9) no-repeat;
+}
+
+.hot-search__wrapper {
+	max-width: 370px;
+	min-height: 190px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	background-size: auto 163px;
+}
+
+ul.hot-search__wrapper li {
+	clear: both;
+	max-width: 115px;
+	padding-bottom: 3px;
+	margin-top: 2px;
+	margin-left: 225px;
+	font-size: 11px;
+	color: #ffeba0;
+	cursor: pointer;
+}
+
+ul.hot-search__wrapper li.hot-search__text-title {
+	font-size: 14px;
+	color: #fff;
+}
+
+ul.hot-search__wrapper li:hover {
+	font-weight: 500;
+}
+
+ul.hot-search__wrapper li span {
+	font-size: 9px;
+	color: #ced0d1;
+	margin-left: 5px;
+}
+
+ul.hot-search__wrapper li:hover span {
+	color: #fff;
+}

@@ -1,0 +1,261 @@
+﻿/*photocatalog general blocks*/
+
+.photo-catalog__grid-row-margin {
+	margin-top: 10px;
+	height: 397px;
+}
+
+.photo-catalog__container {
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	padding: 0 20px 20px 20px;
+	font-size: 13px;
+}
+
+.photo-catalog__row-margin {
+	margin-top: 20px;
+}
+
+.photo-catalog__text-block-wrapper {
+	padding-left: 5px;
+	padding-right: 0;
+	margin-left: -10px;
+}
+
+
+/*Block cadastral number*/
+.photo-catalog__cadastral-number {
+	display: block;
+	color: #fff;
+	background-color: #114A6D;
+    font-size: 18px;
+    padding: 5px 0 5px 5px;
+    margin-left: -5px;
+}
+
+.photo-catalog__cadastral-number:hover {
+	color: #ffd551;
+	font-weight: 500;
+}
+
+/*Block space*/
+
+.photo-catalog__industrial-complex-land {
+	float: right;
+	font-size: 15px;
+}
+
+.photo-catalog__space {
+	font-size: 16px;
+	font-weight: bold;
+	color: #383838;
+}
+
+/*Block typification*/
+
+.photo-catalog__name-object {
+	font-size: 15px;
+    font-weight: bold;
+}
+
+.photo-catalog__kind {
+	font-size: 14px;
+}
+
+
+/*block address*/
+
+.photo-catalog__address {
+	padding-left: 17px;
+    background-image: url(/img/lk/search/photocatalog/address.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.photo-catalog__address-max {
+	font-size: 14px;
+}
+
+.photo-catalog__address a {
+	color: #114A6D;
+}
+
+.photo-catalog__address > a:hover {
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/*Block town-planning-zone ГТЗ*/
+
+.photo-catalog__town-planning-zone {
+	font-size: 12px;
+}
+
+
+/*block economic operation*/
+
+.photo-catalog__type-economic-operation {
+	font-weight: bold;
+}
+
+.photo-catalog__min-price-economic-operation {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.photo-catalog__min-unit-price-economic-operation {
+	font-size: 14px;
+}
+
+/*block date economic operation*/
+
+.photo-catalog__date {
+	float: right;
+	margin-top: 20px;
+	line-height: 1.8;
+}
+
+/*block informations*/
+
+.photo-catalog__information {
+	font-size: 11px;
+	margin-bottom: 3px;
+}
+
+/*block communications*/
+.photo-catalog__communications {
+	font-size: 12px;
+	padding-left: 17px;
+	background-repeat: no-repeat;
+}
+
+.photo-catalog__gas {
+	background-image: url(/img/lk/search/photocatalog/gas.png);
+}
+
+.photo-catalog__water {
+	background-image: url(/img/lk/search/photocatalog/water.png);
+}
+
+.photo-catalog__hot-water {
+	min-height: 15px;
+	background-image: url(/img/lk/search/photocatalog/hot_water.png);
+}
+
+.photo-catalog__heating {
+	background-image: url(/img/lk/search/photocatalog/heating.png);
+}
+
+.photo-catalog__electricity {
+	background-image: url(/img/lk/search/photocatalog/electricity.png);
+}
+
+
+/*Block class building*/
+
+.photo-catalog__class-building {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    background-color: #ffd551;
+    border-width: 1px;
+    border-color: #9D9E9E;
+    border-style: solid;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 100;
+    margin: 0% 0% 0% 77%;
+    font-size: 12px;
+    color: #434242;
+    padding: 2px 0 0 0;
+}
+
+
+/*block quarter of change*/
+
+.photo-catalog__quarter-of-change {
+	width: 150px;
+	height: 30px;
+	background-color: rgba(230,230,230,0.36);
+	border-width: 1px;
+	border-color: #9D9E9E;
+	border-style: solid;
+	border-radius: 4px;
+	text-align: center;
+	z-index: 100;
+	margin: 0 0 5px 50px;
+	padding-top: 5px;
+}
+
+/*block transport*/
+
+.photo-catalog__transport {
+	font-size: 12px;
+	padding-left: 17px;
+	background-repeat: no-repeat;
+}
+
+.photo-catalog__bus-stop {
+	min-height: 15px;
+    background-image: url(/img/lk/search/photocatalog/bus.png);
+}
+
+.photo-catalog__distance-highway {
+	background-image: url(/img/lk/search/photocatalog/road.png);
+}
+
+/*block contacts*/
+
+.photo-catalog__list-contacts {
+	min-height: 17px;
+	background-image: url(/img/lk/search/photocatalog/contacts.png);
+	border-top: 1px solid rgb(219, 219, 219);
+	margin-top: 3px;
+}
+
+/*slider*/
+.photo-catalog__slider {
+	width: 100%;
+	position: relative;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+.photo-catalog__slider-prev {
+	width: 32px;
+	min-height: 32px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url( /img/lk/search/photocatalog/prev.png );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.photo-catalog__slider-next {
+	width: 32px;
+	min-height: 32px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url( /img/lk/search/photocatalog/next.png );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.photo-catalog__slider-items {
+	max-height: 397px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*===== Map =====*/
+
+.photo-catalog__map-wrapper {
+	height: 1200px;
+	display: block;
+}
